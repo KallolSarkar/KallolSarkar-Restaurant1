@@ -16,8 +16,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
-    <header class="container-fluid sticky ">
+<body data-bs-spy="scroll" data-bs-target="#menuScroll">
+    <header class="container-fluid sticky "id="menuScroll">
         <nav class="navbar navbar-expand-lg text-center py-0">
             <div class="container">
                 <img src="assets/images/logo.png" class="img-fluid" alt="">
@@ -29,7 +29,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-0 mb-lg-0 ">
                         <li class="nav-item">
-                            <a class="nav-link active " aria-current="page" href="#">Home</a>
+                            <a class="nav-link active " aria-current="page" href="#homePage">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#ourMenu">Our Menu</a>
@@ -45,8 +45,8 @@
             </div>
         </nav>
     </header>
-    <div class="home">
-        <div class="banner text-white text-center pt-3 px-3">
+    <section class="home " id="homePage" >
+        <div class="banner text-white text-center ">
             <h1>Healthy Food <br> Restaurant</h1>
             <h3>Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit.</h3>
 
@@ -56,10 +56,11 @@
             <img src="assets/images/Shape.png" alt="shape2" id="shape2">
 
         </div>
-    </div>
-    <div class="popular-menu my-5 " id="ourMenu">
+    </section>
+    <hr>
+    <section class="popular-menu " id="ourMenu">
         <h2 class="text-center mb-3">Popular menu</h2>
-        <div class="row justify-content-evenly mt-5 pt-5 mx-1 m">
+        <div class="row justify-content-evenly  pt-5 mx-1 ">
             <div class="col-lg-3 mb-5">
                 <img class="img-fluid w-100" src="assets/images/itemphoto1.jpg" alt="itemphoto1">
                 <div class="product-details p-3 ">
@@ -85,7 +86,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <div class="text-center mt-4">
         <button class="btn btn1">Show More </button>
     </div>

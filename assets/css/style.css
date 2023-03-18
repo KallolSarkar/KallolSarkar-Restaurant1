@@ -3,13 +3,14 @@
 }
 body {
   background-image:url("../images/Background.png");
+  overflow-x: hidden;
 }
 .home{
   /* background-color: #6788b1; */
   height: 700px;
   background-position:bottom;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size:102%;
   background-image: url("../images/banner_shape.png");
 }
 
@@ -18,6 +19,7 @@ body {
 .sticky{
   position: sticky;
   top: 0px;
+  left: 0px;
   z-index: 10;
   background-color: var(--grey);
 }
@@ -34,8 +36,16 @@ body {
   font-size: 20px;
 }
 
-.navbar #nav>.active>a{
-  color: red;
+.navbar .nav-link{
+  border-radius: 15px;
+}
+.navbar .nav-link.active{
+  border:2px solid red;
+  background-color: red;
+  border-radius: 15px;
+}
+.navbar a{
+  text-decoration: none;
 }
 
 /* Banner starts here */
@@ -61,6 +71,9 @@ body {
   transform: rotate(90deg);
 
 }
+.banner h1{
+  padding-top: 100px;
+}
 
 /* popular menu starts here  */
 
@@ -82,4 +95,7 @@ body {
   border-radius: 50px;
   text-transform:uppercase ;
   letter-spacing: 4px;
+}
+#ourMenu{
+  padding-top: 60px;
 }
