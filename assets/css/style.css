@@ -5,14 +5,6 @@ body {
   background-image:url("../images/Background.png");
   overflow-x: hidden;
 }
-.home{
-  /* background-color: #6788b1; */
-  height: 700px;
-  background-position:bottom;
-  background-repeat: no-repeat;
-  background-size:102%;
-  background-image: url("../images/banner_shape.png");
-}
 
 
 /* Navbar starts here  */
@@ -27,7 +19,7 @@ body {
   max-width: 25%;
 }
 .navbar{
-  height: 60px;
+  height: 80px;
 }
 
 .navbar a{
@@ -50,29 +42,35 @@ body {
 
 /* Banner starts here */
 
+.banner{
+  background-color: var(--grey);
+}
+.wavepic{
+  width: 100%;
+}
 
 .banner h1{
   /* font-size: 70px; */
   font-size:  calc(64px + 2.2vw);
   margin-bottom: 20px;
+  padding-top: 100px;
+}
+.banner h3{
+  margin: -2px;
 }
 
 #shape1{
   position: relative;
-  left: 100px;
-  top: 30px;
+  left: 150px;
+  top: -102px;
   float: left;
 }
 #shape2{
   position: relative;
   right: -60px;
-  bottom: 30px;
+  bottom: 375px;
   float: right;
   transform: rotate(90deg);
-
-}
-.banner h1{
-  padding-top: 100px;
 }
 
 /* popular menu starts here  */
