@@ -21,7 +21,7 @@ h3 {
   font-size: 30px;
   color: white;
 }
-.navbar button{
+.navbar button {
   border: 1px solid white;
 }
 
@@ -34,7 +34,7 @@ h3 {
   background-color: var(--grey);
 }
 .navbar img {
-  max-width: 25%;
+  max-width: 15%;
 }
 .navbar {
   height: 80px;
@@ -126,8 +126,8 @@ h3 {
 }
 #shape5 {
   position: relative;
-  right: 85px;
-  top: 654px;
+  right: 99px;
+  top: -61px;
   float: right;
 }
 
@@ -217,7 +217,7 @@ h3 {
 }
 
 /* Promo section h2 */
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1250px) {
   .promo h2 {
     font-size: 26px;
   }
@@ -236,15 +236,16 @@ h3 {
 /*Toggler Background*/
 #nav-container {
   background-color: var(--grey) !important;
+  /* height: 100%; */
 }
 @media (max-width: 767px) {
   .navbar img {
-    max-width: 45%;
+    max-width: 25%;
   }
   .navbar {
     /* height: 500vh; */
   }
   #nav-container .last {
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
   }
 }
