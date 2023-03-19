@@ -145,12 +145,17 @@ h3 {
 
 /* Free Delivey starts here  */
 .free-delivery {
+
   color: var(--grey);
   padding-bottom: 90px;
   background-image: url("/assets/images/itemphoto6.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  /* for various devices & browsers */
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  -webkit-background-size:cover;
 }
 #shape6 {
   position: relative;
